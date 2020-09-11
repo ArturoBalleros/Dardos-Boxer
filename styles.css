@@ -1,0 +1,81 @@
+#divConf{
+    /*Centra*/
+    margin-left: auto;
+    margin-right: auto;
+    width: 650px;
+    height: 45px;
+    margin-bottom: 3px;
+    display: flex;
+}
+
+.divConfElem{
+   padding: 10px;
+}
+
+.player{
+    float:left;
+    /*posicion*/
+    position: relative;
+    /*Tamaño*/
+    width: 450px;
+    height: 450px;
+    /*Borde*/
+    border: 5px solid black;
+    /*Fondo*/
+    background-size: cover;
+}
+
+.namePlayer{
+    width: inherit; /*hereda la anchura del padre*/
+    display: table-cell;    
+    text-align:center;
+    color: black;
+    font-size: 32px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.divNumber{       
+    display: table;
+    position: absolute;       
+    width: 90px;
+    height: 90px;                
+    border: 5px dashed black;
+    border-radius: 50px;
+    background: rgba(209, 79, 18, 0.715);
+}
+
+.divOneHit{           
+    margin-top: 150px;
+    margin-left: 50px;    
+}
+
+.divTwoHit{           
+    margin-top: 200px;
+    margin-left: 320px;
+}
+
+.divThreeHit{              
+    margin-top: 300px;
+    margin-left: 150px;
+}
+
+.divHealth{          
+    background: rgba(34, 209, 18, 0.515);
+    margin-top: 200px;
+    margin-left: 150px;
+    width: 150px;
+    height: 150px; 
+    border-radius: 100px;
+}
+
+.spanTexto{                
+    display: table-cell;
+    vertical-align: middle;
+    text-align:center;
+    color: black;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
