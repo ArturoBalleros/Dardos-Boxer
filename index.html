@@ -2,7 +2,7 @@
 <html lang="es">
     <head>
         <meta charset="UTF-8"/>
-        <title>Boxeo - Dardos Fenix</title>
+        <title>WEB</title>
         <link rel="stylesheet" type="text/css" href="styles.css"/>
         <script type="text/javascript" src="script.js"></script>
     </head>
@@ -10,31 +10,31 @@
 
         <div id="divConf">
             <div class="divConfElem">
-                <input type="radio" id="rbPlayer1" name="group" value="1" checked>
-                <label for="rbPlayer1" >Player 1</label>
-            </div>
-              
+                <input class="checkmark" type="radio" id="rbPlayer1" name="group" value="1" checked onclick="NewRound()">                
+            </div>              
             <div class="divConfElem">
-                <input type="radio" id="rbPlayer2" name="group" value="2">
-                <label for="rbPlayer2">Player 2</label>
-            </div>
-              
+                <input class="checkmark" type="radio" id="rbPlayer2" name="group" value="2" onclick="NewRound()">                
+            </div>              
             <div class="divConfElem">
-                <input type="radio" id="rbPlayer3" name="group" value="3">
-                <label for="rbPlayer3">Player 3</label>
+                <input class="checkmark" type="radio" id="rbPlayer3" name="group" value="3" onclick="NewRound()">                
             </div>
-
             <div class="divConfElem">
-                <input type="radio" id="rbPlayer4" name="group" value="4">
-                <label for="rbPlayer4">Player 4</label>
+                <input class="checkmark" type="radio" id="rbPlayer4" name="group" value="4" onclick="NewRound()">                
             </div>
-
             <div class="divConfElem">
-                <input type="submit" value="Nueva Ronda" onclick="NewRound()">
+                <input class="checkmark" type="radio" id="rbPlayer5" name="group" value="5" onclick="NewRound()">                
+            </div>              
+            <div class="divConfElem">
+                <input class="checkmark" type="radio" id="rbPlayer6" name="group" value="6" onclick="NewRound()">                
+            </div>              
+            <div class="divConfElem">
+                <input class="checkmark" type="radio" id="rbPlayer7" name="group" value="7" onclick="NewRound()">                
             </div>
-
             <div class="divConfElem">
-                <input type="submit" value="Ver reglas" onclick="OpenRules()">
+                <input class="checkmark" type="radio" id="rbPlayer8" name="group" value="8" onclick="NewRound()">                
+            </div>
+            <div class="divConfElem">
+                <input class="form-submit-button" type="submit" value="Ver reglas" onclick="OpenRules()">
             </div>
         </div>
                 
@@ -96,6 +96,82 @@
         </div>
 
         <div id="player4" class="player">
+            <p class="namePlayer"></p>
+            <div id="divOneHit" class="divNumber divOneHit">
+                <span id="textHitOne" class="spanTexto"></span>
+            </div>
+
+            <div id="divTwoHit" class="divNumber divTwoHit">
+                <span id="textHitTwo" class="spanTexto"></span>
+            </div>
+
+            <div id="divThreeHit" class="divNumber divThreeHit">
+                <span id="textHitThree" class="spanTexto"></span>
+            </div>    
+            
+            <div id="divHealth" class="divNumber divHealth">
+                <span id="textHealth" class="spanTexto"></span>
+            </div>  
+        </div>
+
+        <div id="player5" class="player">
+            <p class="namePlayer"></p>
+            <div id="divOneHit" class="divNumber divOneHit">
+                <span id="textHitOne" class="spanTexto"></span>
+            </div>
+
+            <div id="divTwoHit" class="divNumber divTwoHit">
+                <span id="textHitTwo" class="spanTexto"></span>
+            </div>
+
+            <div id="divThreeHit" class="divNumber divThreeHit">
+                <span id="textHitThree" class="spanTexto"></span>
+            </div>    
+            
+            <div id="divHealth" class="divNumber divHealth">
+                <span id="textHealth" class="spanTexto"></span>
+            </div>  
+        </div>
+
+        <div id="player6" class="player">
+            <p class="namePlayer"></p>
+            <div id="divOneHit" class="divNumber divOneHit">
+                <span id="textHitOne" class="spanTexto"></span>
+            </div>
+
+            <div id="divTwoHit" class="divNumber divTwoHit">
+                <span id="textHitTwo" class="spanTexto"></span>
+            </div>
+
+            <div id="divThreeHit" class="divNumber divThreeHit">
+                <span id="textHitThree" class="spanTexto"></span>
+            </div>    
+            
+            <div id="divHealth" class="divNumber divHealth">
+                <span id="textHealth" class="spanTexto"></span>
+            </div>  
+        </div>
+
+        <div id="player7" class="player">
+            <p class="namePlayer"></p>
+            <div id="divOneHit" class="divNumber divOneHit">
+                <span id="textHitOne" class="spanTexto"></span>
+            </div>
+
+            <div id="divTwoHit" class="divNumber divTwoHit">
+                <span id="textHitTwo" class="spanTexto"></span>
+            </div>
+
+            <div id="divThreeHit" class="divNumber divThreeHit">
+                <span id="textHitThree" class="spanTexto"></span>
+            </div>    
+            
+            <div id="divHealth" class="divNumber divHealth">
+                <span id="textHealth" class="spanTexto"></span>
+            </div>  
+        </div>
+
+        <div id="player8" class="player">
             <p class="namePlayer"></p>
             <div id="divOneHit" class="divNumber divOneHit">
                 <span id="textHitOne" class="spanTexto"></span>
